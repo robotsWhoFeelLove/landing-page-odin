@@ -1,0 +1,134 @@
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: flex-end;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+.header-links>a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.hero{
+    background-color: #1F2937;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1;
+    
+}
+.hero-right>img{
+    width:400px;
+    height: auto;
+}
+.hero-left{
+    width: 400px;
+
+}
+.hero-left>h1{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+.hero-left>p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-left>button{
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 80px;
+    height: 20px;
+}
+.card-header>h2{
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* padding: 20px; */
+    padding-bottom: 70px;
+}
+.card{
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card>img{
+    width: 140px;
+    height: auto;
+    margin: 5px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote-text{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-style: italic;
+    align-items: center;
+    margin: auto;
+}
+
+.attribute{
+    font-size: 12px;
+    font-weight:900;
+    align-self: flex-end;
+}
+.footer-banner{
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-banner>button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 2px 15px;
+}
