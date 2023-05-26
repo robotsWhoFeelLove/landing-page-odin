@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+.top{
+    background-color: #1F2937;
+}
 .header{
     background-color: #1F2937;
     display: flex;
@@ -22,6 +25,9 @@
     font-size: 18px;
     font-weight: normal;
     padding-right: 10px;
+    display: inline-block;
+    
+
 }
 .hero{
     background-color: #1F2937;
